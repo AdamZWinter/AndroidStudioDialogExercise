@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivty">
+
+    <TextView
+        android:id="@+id/tvMedical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medical" />
+
+    <EditText
+        android:id="@+id/etMedical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvFire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fire" />
+
+    <EditText
+        android:id="@+id/etFire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvAccident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Accident" />
+
+    <EditText
+        android:id="@+id/etAccident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Police Help" />
+
+    <EditText
+        android:id="@+id/etPolice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSaveClick"
+        android:text="Save" />
+</LinearLayout>
